@@ -9,7 +9,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home() {
-        return "Welcome to AzDevHub API";
+        return "Welcome to TableCreate API";
     }
 }
 

@@ -68,7 +68,6 @@ public class AuthController {
                     .accessToken(jwtService.GenerateToken(authRequestDTO.getEmail(),null))
                     .token(refreshToken.getToken())
                     .build();
-
         } else {
             throw new UsernameNotFoundException("invalid user request..!!");
         }
